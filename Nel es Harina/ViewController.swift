@@ -11,7 +11,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     var audioPlayer: AVAudioPlayer!
-    let soundArray=["aQueChingon","cumbionLocoFull","dameUnSegundito","hayPapaya","nelEsHarina","noTodaviaNo","queMeVeRamirez","quePedal","quePedo","queSeArmenFull","queSeArmenShort","queTenemosRamirez","santaMadreQuePedo","srrHo","tranquilaYoNerviosa","tranquiloTranquila","tusHijosVuelan","vamonosP"]
+    let soundArray=["aQueChingon","cumbionLocoFull","dameUnSegundito","hayPapaya","nelEsHarina","noTodaviaNo","queMeVeRamirez","quePedal","quePedo","queSeArmenFull","queSeArmenShort","queTenemosRamirez","santaMadreQuePedo","srrHo","tranquilaYoNerviosa","tranquiloTranquila","tusHijosVuelan","vamonosP","inevitable","cellTerror"]
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

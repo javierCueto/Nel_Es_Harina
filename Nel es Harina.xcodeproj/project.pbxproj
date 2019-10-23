@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF03B0502358A099007D1007 /* cellTerror.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF03B04F2358A099007D1007 /* cellTerror.m4a */; };
+		CF03B0522358A0AD007D1007 /* inevitable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF03B0512358A0AD007D1007 /* inevitable.m4a */; };
 		CFD8ECE6233E8D10006503DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE5233E8D10006503DD /* AppDelegate.swift */; };
 		CFD8ECE8233E8D10006503DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */; };
 		CFD8ECEA233E8D10006503DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE9233E8D10006503DD /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF03B04F2358A099007D1007 /* cellTerror.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cellTerror.m4a; sourceTree = "<group>"; };
+		CF03B0512358A0AD007D1007 /* inevitable.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inevitable.m4a; sourceTree = "<group>"; };
 		CFD8ECE2233E8D10006503DD /* Nel es Harina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nel es Harina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD8ECE5233E8D10006503DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 		CFD8ECE4233E8D10006503DD /* Nel es Harina */ = {
 			isa = PBXGroup;
 			children = (
+				CF03B0512358A0AD007D1007 /* inevitable.m4a */,
+				CF03B04F2358A099007D1007 /* cellTerror.m4a */,
 				CFD8ED04233EA16F006503DD /* aQueChingon.m4a */,
 				CFD8ED08233EA16F006503DD /* cumbionLocoFull.m4a */,
 				CFD8ED12233EA170006503DD /* dameUnSegundito.m4a */,
@@ -197,6 +203,8 @@
 				CFD8ED22233EA170006503DD /* srrHo.m4a in Resources */,
 				CFD8ED1B233EA170006503DD /* nelEsHarina.m4a in Resources */,
 				CFD8ED1F233EA170006503DD /* tranquiloTranquila.m4a in Resources */,
+				CF03B0502358A099007D1007 /* cellTerror.m4a in Resources */,
+				CF03B0522358A0AD007D1007 /* inevitable.m4a in Resources */,
 				CFD8ED14233EA170006503DD /* queMeVeRamirez.m4a in Resources */,
 				CFD8ED1E233EA170006503DD /* queTenemosRamirez.m4a in Resources */,
 				CFD8ECEF233E8D11006503DD /* Assets.xcassets in Resources */,
