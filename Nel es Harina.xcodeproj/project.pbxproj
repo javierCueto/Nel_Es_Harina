@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		CF03B0502358A099007D1007 /* cellTerror.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF03B04F2358A099007D1007 /* cellTerror.m4a */; };
 		CF03B0522358A0AD007D1007 /* inevitable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF03B0512358A0AD007D1007 /* inevitable.m4a */; };
+		CFBC64D22396268700CEDA26 /* MoreSoundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBC64D12396268700CEDA26 /* MoreSoundsController.swift */; };
+		CFBC64D4239626B800CEDA26 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBC64D3239626B800CEDA26 /* Sounds.swift */; };
+		CFBC64E123962DE300CEDA26 /* porqueTanSerio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64D523962DE300CEDA26 /* porqueTanSerio.m4a */; };
+		CFBC64E223962DE300CEDA26 /* libertad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64D623962DE300CEDA26 /* libertad.m4a */; };
+		CFBC64E323962DE400CEDA26 /* todoSeDerrumbo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64D723962DE300CEDA26 /* todoSeDerrumbo.m4a */; };
+		CFBC64E423962DE400CEDA26 /* miPreciosa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64D823962DE300CEDA26 /* miPreciosa.m4a */; };
+		CFBC64E523962DE400CEDA26 /* laFuerza.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64D923962DE300CEDA26 /* laFuerza.m4a */; };
+		CFBC64E623962DE400CEDA26 /* estoEspartan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DA23962DE300CEDA26 /* estoEspartan.m4a */; };
+		CFBC64E723962DE400CEDA26 /* veoGenteDead.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DB23962DE300CEDA26 /* veoGenteDead.m4a */; };
+		CFBC64E823962DE400CEDA26 /* jameB.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DC23962DE300CEDA26 /* jameB.m4a */; };
+		CFBC64E923962DE400CEDA26 /* marica.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DD23962DE300CEDA26 /* marica.m4a */; };
+		CFBC64EA23962DE400CEDA26 /* thisSpartan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DE23962DE300CEDA26 /* thisSpartan.m4a */; };
+		CFBC64EB23962DE400CEDA26 /* hastaLaVista.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64DF23962DE300CEDA26 /* hastaLaVista.m4a */; };
+		CFBC64EC23962DE400CEDA26 /* yoSoyTuPadre.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64E023962DE300CEDA26 /* yoSoyTuPadre.m4a */; };
+		CFBC64F223962F8900CEDA26 /* todoTeniente.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64ED23962F8900CEDA26 /* todoTeniente.m4a */; };
+		CFBC64F323962F8900CEDA26 /* siSupo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64EE23962F8900CEDA26 /* siSupo.m4a */; };
+		CFBC64F423962F8900CEDA26 /* vamosPerrasFull.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64EF23962F8900CEDA26 /* vamosPerrasFull.m4a */; };
+		CFBC64F523962F8900CEDA26 /* yEstaQuienEs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64F023962F8900CEDA26 /* yEstaQuienEs.m4a */; };
+		CFBC64F623962F8900CEDA26 /* jamonChingon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBC64F123962F8900CEDA26 /* jamonChingon.m4a */; };
 		CFD8ECE6233E8D10006503DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE5233E8D10006503DD /* AppDelegate.swift */; };
 		CFD8ECE8233E8D10006503DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */; };
 		CFD8ECEA233E8D10006503DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD8ECE9233E8D10006503DD /* ViewController.swift */; };
@@ -38,6 +57,37 @@
 /* Begin PBXFileReference section */
 		CF03B04F2358A099007D1007 /* cellTerror.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cellTerror.m4a; sourceTree = "<group>"; };
 		CF03B0512358A0AD007D1007 /* inevitable.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inevitable.m4a; sourceTree = "<group>"; };
+		CFBC64C5239624B500CEDA26 /* veoGenteDead.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = veoGenteDead.m4a; sourceTree = "<group>"; };
+		CFBC64C6239624B500CEDA26 /* estoEspartan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = estoEspartan.m4a; sourceTree = "<group>"; };
+		CFBC64C7239624B500CEDA26 /* hastaLaVista.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hastaLaVista.m4a; sourceTree = "<group>"; };
+		CFBC64C8239624B500CEDA26 /* libertad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = libertad.m4a; sourceTree = "<group>"; };
+		CFBC64C9239624B500CEDA26 /* miPreciosa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = miPreciosa.m4a; sourceTree = "<group>"; };
+		CFBC64CA239624B500CEDA26 /* thisSpartan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = thisSpartan.m4a; sourceTree = "<group>"; };
+		CFBC64CB239624B500CEDA26 /* porqueTanSerio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = porqueTanSerio.m4a; sourceTree = "<group>"; };
+		CFBC64CC239624B500CEDA26 /* marica.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = marica.m4a; sourceTree = "<group>"; };
+		CFBC64CD239624B500CEDA26 /* todoSeDerrumbo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = todoSeDerrumbo.m4a; sourceTree = "<group>"; };
+		CFBC64CE239624B500CEDA26 /* jameB.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jameB.m4a; sourceTree = "<group>"; };
+		CFBC64CF239624B500CEDA26 /* laFuerza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = laFuerza.m4a; sourceTree = "<group>"; };
+		CFBC64D0239624B600CEDA26 /* yoSoyTuPadre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoSoyTuPadre.m4a; sourceTree = "<group>"; };
+		CFBC64D12396268700CEDA26 /* MoreSoundsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreSoundsController.swift; sourceTree = "<group>"; };
+		CFBC64D3239626B800CEDA26 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		CFBC64D523962DE300CEDA26 /* porqueTanSerio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = porqueTanSerio.m4a; sourceTree = "<group>"; };
+		CFBC64D623962DE300CEDA26 /* libertad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = libertad.m4a; sourceTree = "<group>"; };
+		CFBC64D723962DE300CEDA26 /* todoSeDerrumbo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = todoSeDerrumbo.m4a; sourceTree = "<group>"; };
+		CFBC64D823962DE300CEDA26 /* miPreciosa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = miPreciosa.m4a; sourceTree = "<group>"; };
+		CFBC64D923962DE300CEDA26 /* laFuerza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = laFuerza.m4a; sourceTree = "<group>"; };
+		CFBC64DA23962DE300CEDA26 /* estoEspartan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = estoEspartan.m4a; sourceTree = "<group>"; };
+		CFBC64DB23962DE300CEDA26 /* veoGenteDead.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = veoGenteDead.m4a; sourceTree = "<group>"; };
+		CFBC64DC23962DE300CEDA26 /* jameB.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jameB.m4a; sourceTree = "<group>"; };
+		CFBC64DD23962DE300CEDA26 /* marica.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = marica.m4a; sourceTree = "<group>"; };
+		CFBC64DE23962DE300CEDA26 /* thisSpartan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = thisSpartan.m4a; sourceTree = "<group>"; };
+		CFBC64DF23962DE300CEDA26 /* hastaLaVista.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hastaLaVista.m4a; sourceTree = "<group>"; };
+		CFBC64E023962DE300CEDA26 /* yoSoyTuPadre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoSoyTuPadre.m4a; sourceTree = "<group>"; };
+		CFBC64ED23962F8900CEDA26 /* todoTeniente.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = todoTeniente.m4a; sourceTree = "<group>"; };
+		CFBC64EE23962F8900CEDA26 /* siSupo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = siSupo.m4a; sourceTree = "<group>"; };
+		CFBC64EF23962F8900CEDA26 /* vamosPerrasFull.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vamosPerrasFull.m4a; sourceTree = "<group>"; };
+		CFBC64F023962F8900CEDA26 /* yEstaQuienEs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yEstaQuienEs.m4a; sourceTree = "<group>"; };
+		CFBC64F123962F8900CEDA26 /* jamonChingon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jamonChingon.m4a; sourceTree = "<group>"; };
 		CFD8ECE2233E8D10006503DD /* Nel es Harina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nel es Harina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD8ECE5233E8D10006503DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +146,52 @@
 		CFD8ECE4233E8D10006503DD /* Nel es Harina */ = {
 			isa = PBXGroup;
 			children = (
+				CFBC64DA23962DE300CEDA26 /* estoEspartan.m4a */,
+				CFBC64DF23962DE300CEDA26 /* hastaLaVista.m4a */,
+				CFBC64DC23962DE300CEDA26 /* jameB.m4a */,
+				CFBC64D923962DE300CEDA26 /* laFuerza.m4a */,
+				CFBC64D623962DE300CEDA26 /* libertad.m4a */,
+				CFBC64DD23962DE300CEDA26 /* marica.m4a */,
+				CFBC64D823962DE300CEDA26 /* miPreciosa.m4a */,
+				CFBC64D523962DE300CEDA26 /* porqueTanSerio.m4a */,
+				CFBC64DE23962DE300CEDA26 /* thisSpartan.m4a */,
+				CFBC64D723962DE300CEDA26 /* todoSeDerrumbo.m4a */,
+				CFBC64DB23962DE300CEDA26 /* veoGenteDead.m4a */,
+				CFBC64E023962DE300CEDA26 /* yoSoyTuPadre.m4a */,
+				CFD8ED00233EA118006503DD /* Sounds */,
+				CFD8ECE5233E8D10006503DD /* AppDelegate.swift */,
+				CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */,
+				CFD8ECE9233E8D10006503DD /* ViewController.swift */,
+				CFD8ECEB233E8D10006503DD /* Main.storyboard */,
+				CFD8ECEE233E8D11006503DD /* Assets.xcassets */,
+				CFD8ECF0233E8D11006503DD /* LaunchScreen.storyboard */,
+				CFD8ECF3233E8D11006503DD /* Info.plist */,
+				CFBC64D12396268700CEDA26 /* MoreSoundsController.swift */,
+				CFBC64D3239626B800CEDA26 /* Sounds.swift */,
+			);
+			path = "Nel es Harina";
+			sourceTree = "<group>";
+		};
+		CFD8ED00233EA118006503DD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CFBC64F123962F8900CEDA26 /* jamonChingon.m4a */,
+				CFBC64EE23962F8900CEDA26 /* siSupo.m4a */,
+				CFBC64ED23962F8900CEDA26 /* todoTeniente.m4a */,
+				CFBC64EF23962F8900CEDA26 /* vamosPerrasFull.m4a */,
+				CFBC64F023962F8900CEDA26 /* yEstaQuienEs.m4a */,
+				CFBC64C6239624B500CEDA26 /* estoEspartan.m4a */,
+				CFBC64C7239624B500CEDA26 /* hastaLaVista.m4a */,
+				CFBC64CE239624B500CEDA26 /* jameB.m4a */,
+				CFBC64CF239624B500CEDA26 /* laFuerza.m4a */,
+				CFBC64C8239624B500CEDA26 /* libertad.m4a */,
+				CFBC64CC239624B500CEDA26 /* marica.m4a */,
+				CFBC64C9239624B500CEDA26 /* miPreciosa.m4a */,
+				CFBC64CB239624B500CEDA26 /* porqueTanSerio.m4a */,
+				CFBC64CA239624B500CEDA26 /* thisSpartan.m4a */,
+				CFBC64CD239624B500CEDA26 /* todoSeDerrumbo.m4a */,
+				CFBC64C5239624B500CEDA26 /* veoGenteDead.m4a */,
+				CFBC64D0239624B600CEDA26 /* yoSoyTuPadre.m4a */,
 				CF03B0512358A0AD007D1007 /* inevitable.m4a */,
 				CF03B04F2358A099007D1007 /* cellTerror.m4a */,
 				CFD8ED04233EA16F006503DD /* aQueChingon.m4a */,
@@ -116,21 +212,6 @@
 				CFD8ED0D233EA170006503DD /* tranquiloTranquila.m4a */,
 				CFD8ED06233EA16F006503DD /* tusHijosVuelan.m4a */,
 				CFD8ED0B233EA170006503DD /* vamonosP.m4a */,
-				CFD8ED00233EA118006503DD /* Sounds */,
-				CFD8ECE5233E8D10006503DD /* AppDelegate.swift */,
-				CFD8ECE7233E8D10006503DD /* SceneDelegate.swift */,
-				CFD8ECE9233E8D10006503DD /* ViewController.swift */,
-				CFD8ECEB233E8D10006503DD /* Main.storyboard */,
-				CFD8ECEE233E8D11006503DD /* Assets.xcassets */,
-				CFD8ECF0233E8D11006503DD /* LaunchScreen.storyboard */,
-				CFD8ECF3233E8D11006503DD /* Info.plist */,
-			);
-			path = "Nel es Harina";
-			sourceTree = "<group>";
-		};
-		CFD8ED00233EA118006503DD /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -196,25 +277,42 @@
 				CFD8ED21233EA170006503DD /* quePedo.m4a in Resources */,
 				CFD8ED17233EA170006503DD /* santaMadreQuePedo.m4a in Resources */,
 				CFD8ED24233EA170006503DD /* dameUnSegundito.m4a in Resources */,
+				CFBC64EC23962DE400CEDA26 /* yoSoyTuPadre.m4a in Resources */,
 				CFD8ECF2233E8D11006503DD /* LaunchScreen.storyboard in Resources */,
 				CFD8ED15233EA170006503DD /* quePedal.m4a in Resources */,
 				CFD8ED19233EA170006503DD /* queSeArmenShort.m4a in Resources */,
 				CFD8ED13233EA170006503DD /* noTodaviaNo.m4a in Resources */,
+				CFBC64F523962F8900CEDA26 /* yEstaQuienEs.m4a in Resources */,
+				CFBC64EB23962DE400CEDA26 /* hastaLaVista.m4a in Resources */,
+				CFBC64E923962DE400CEDA26 /* marica.m4a in Resources */,
+				CFBC64E723962DE400CEDA26 /* veoGenteDead.m4a in Resources */,
+				CFBC64E623962DE400CEDA26 /* estoEspartan.m4a in Resources */,
 				CFD8ED22233EA170006503DD /* srrHo.m4a in Resources */,
 				CFD8ED1B233EA170006503DD /* nelEsHarina.m4a in Resources */,
+				CFBC64F223962F8900CEDA26 /* todoTeniente.m4a in Resources */,
+				CFBC64F423962F8900CEDA26 /* vamosPerrasFull.m4a in Resources */,
 				CFD8ED1F233EA170006503DD /* tranquiloTranquila.m4a in Resources */,
+				CFBC64E523962DE400CEDA26 /* laFuerza.m4a in Resources */,
 				CF03B0502358A099007D1007 /* cellTerror.m4a in Resources */,
+				CFBC64E123962DE300CEDA26 /* porqueTanSerio.m4a in Resources */,
 				CF03B0522358A0AD007D1007 /* inevitable.m4a in Resources */,
+				CFBC64EA23962DE400CEDA26 /* thisSpartan.m4a in Resources */,
+				CFBC64E423962DE400CEDA26 /* miPreciosa.m4a in Resources */,
+				CFBC64E823962DE400CEDA26 /* jameB.m4a in Resources */,
 				CFD8ED14233EA170006503DD /* queMeVeRamirez.m4a in Resources */,
 				CFD8ED1E233EA170006503DD /* queTenemosRamirez.m4a in Resources */,
+				CFBC64F623962F8900CEDA26 /* jamonChingon.m4a in Resources */,
 				CFD8ECEF233E8D11006503DD /* Assets.xcassets in Resources */,
 				CFD8ED18233EA170006503DD /* tusHijosVuelan.m4a in Resources */,
 				CFD8ED16233EA170006503DD /* aQueChingon.m4a in Resources */,
 				CFD8ECED233E8D10006503DD /* Main.storyboard in Resources */,
 				CFD8ED20233EA170006503DD /* queSeArmenFull.m4a in Resources */,
 				CFD8ED1D233EA170006503DD /* vamonosP.m4a in Resources */,
+				CFBC64F323962F8900CEDA26 /* siSupo.m4a in Resources */,
 				CFD8ED1C233EA170006503DD /* tranquilaYoNerviosa.m4a in Resources */,
+				CFBC64E323962DE400CEDA26 /* todoSeDerrumbo.m4a in Resources */,
 				CFD8ED1A233EA170006503DD /* cumbionLocoFull.m4a in Resources */,
+				CFBC64E223962DE300CEDA26 /* libertad.m4a in Resources */,
 				CFD8ED23233EA170006503DD /* hayPapaya.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +324,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBC64D22396268700CEDA26 /* MoreSoundsController.swift in Sources */,
 				CFD8ECEA233E8D10006503DD /* ViewController.swift in Sources */,
+				CFBC64D4239626B800CEDA26 /* Sounds.swift in Sources */,
 				CFD8ECE6233E8D10006503DD /* AppDelegate.swift in Sources */,
 				CFD8ECE8233E8D10006503DD /* SceneDelegate.swift in Sources */,
 			);

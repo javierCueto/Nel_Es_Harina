@@ -1,26 +1,26 @@
 //
-//  ViewController.swift
+//  MoreSoundsController.swift
 //  Nel es Harina
 //
-//  Created by José Javier Cueto Mejía on 9/27/19.
+//  Created by José Javier Cueto Mejía on 02/12/19.
 //  Copyright © 2019 José Javier Cueto Mejía. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MoreSoundsController: UIViewController {
     var sound = Sounds()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
+    
 
-
-    @IBAction func buttonSoundPressed(_ sender: UIButton) {
+    
+    @IBAction func buttonPlaySound(_ sender: UIButton) {
         let index = sender.tag
+        print(index);
         sound.playSound(toPlay: index)
     }
     
-    
 }
-
