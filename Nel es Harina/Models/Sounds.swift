@@ -12,7 +12,7 @@ import AVFoundation
 
 struct Sounds {
     var audioPlayer: AVAudioPlayer!
-    let soundArray=["aQueChingon","cumbionLocoFull","dameUnSegundito","hayPapaya","nelEsHarina","noTodaviaNo","queMeVeRamirez","quePedal","quePedo","queSeArmenFull","queSeArmenShort","queTenemosRamirez","santaMadreQuePedo","srrHo","tranquilaYoNerviosa","tranquiloTranquila","tusHijosVuelan","vamonosP","inevitable","cellTerror","estoEspartan","hastaLaVista","jameB","laFuerza","libertad","marica","miPreciosa","porqueTanSerio","thisSpartan","todoSeDerrumbo","veoGenteDead","yoSoyTuPadre","jamonChingon","siSupo","todoTeniente","vamosPerrasFull","yEstaQuienEs"]
+    let soundArray=["aQueChingon","cumbionLocoFull","dameUnSegundito","hayPapaya","nelEsHarina","noTodaviaNo","queMeVeRamirez","quePedal","quePedo","queSeArmenFull","queSeArmenShort","queTenemosRamirez","santaMadreQuePedo","srrHo","tranquilaYoNerviosa","tranquiloTranquila","tusHijosVuelan","vamonosP","inevitable","cellTerror","estoEspartan","hastaLaVista","jameB","laFuerza","libertad","marica","miPreciosa","porqueTanSerio","thisSpartan","todoSeDerrumbo","veoGenteDead","yoSoyTuPadre","jamonChingon","siSupo","todoTeniente","vamosPerrasFull","yEstaQuienEs","obligame"]
     
    mutating func playSound(toPlay: Int? ){
     
