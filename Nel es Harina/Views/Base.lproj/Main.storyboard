@@ -469,13 +469,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AQT-R6-rvJ">
-                                <rect key="frame" x="16" y="20" width="339" height="427"/>
+                                <rect key="frame" x="20" y="20" width="335" height="350"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="XmN-Yh-l2a">
-                                        <rect key="frame" x="0.0" y="0.0" width="164.5" height="427"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="162.5" height="350"/>
                                         <subviews>
                                             <button opaque="NO" tag="26" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="56R-bj-TdK" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Marica!!!">
@@ -492,7 +492,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEH-FZ-FNu" customClass="UIButtonX">
-                                                <rect key="frame" x="0.0" y="54.5" width="164.5" height="45"/>
+                                                <rect key="frame" x="0.0" y="40" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Inevitable">
@@ -509,7 +509,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gF-eP-8Sc" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="109.5" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="80" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Terror">
@@ -526,7 +526,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbe-yC-jAb" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="164" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="120" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="This is Spartan">
@@ -543,7 +543,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="21" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-hg-MU1" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="218.5" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="160" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Esto es Espartan">
@@ -560,7 +560,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGL-3e-bVB" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="273" width="164.5" height="45"/>
+                                                <rect key="frame" x="0.0" y="200" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Yo soy Tu Padre">
@@ -577,7 +577,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJJ-Ch-YTR" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="328" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="240" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Que la Fuerza te ...">
@@ -594,7 +594,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="39" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qg8-TY-r21" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="382.5" width="164.5" height="44.5"/>
+                                                <rect key="frame" x="0.0" y="280" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="La convencion">
@@ -610,13 +610,33 @@
                                                     <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P3c-5m-3bb"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" tag="38" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQf-eY-Jbl" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="320" width="162.5" height="30"/>
+                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="39" id="MtX-kq-bns"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Obligame ...">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonPlaySound:" destination="hr4-PF-Y3N" eventType="touchUpInside" id="eWN-fg-ZbB"/>
+                                                    <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FB1-NY-4ey"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="MLP-hS-f3g">
-                                        <rect key="frame" x="174.5" y="0.0" width="164.5" height="427"/>
+                                        <rect key="frame" x="172.5" y="0.0" width="162.5" height="350"/>
                                         <subviews>
                                             <button opaque="NO" tag="22" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haU-4p-z1g" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="0.0" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Hasta la vista Baby">
@@ -633,7 +653,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3a-J8-Caf" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="62.5" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="40" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Veo Gente Muerta">
@@ -650,7 +670,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLv-yM-t6M" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="125" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="80" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Todo se Derrumbo">
@@ -667,7 +687,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LG-Wu-G1y" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="187.5" width="164.5" height="52"/>
+                                                <rect key="frame" x="0.0" y="120" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Porque tan Serio?">
@@ -684,7 +704,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dz8-zC-Yxf" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="249.5" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="160" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Preciosaaa!!">
@@ -701,7 +721,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZ8-WE-grF" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="312" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="200" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="James B">
@@ -718,7 +738,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPd-bH-uLN" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="374.5" width="164.5" height="52.5"/>
+                                                <rect key="frame" x="0.0" y="240" width="162.5" height="30"/>
                                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Libertad!!!">
@@ -734,40 +754,51 @@
                                                     <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMr-uv-XBB"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eT0-Tl-i3n" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="280" width="162.5" height="30"/>
+                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Lo quiero mucho comp">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonPlaySound:" destination="hr4-PF-Y3N" eventType="touchUpInside" id="tv3-bb-x1W"/>
+                                                    <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOM-v2-FLL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gwD-i7-ABz" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="320" width="162.5" height="30"/>
+                                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Que bonitos ojos comp">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="17"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="buttonPlaySound:" destination="hr4-PF-Y3N" eventType="touchUpInside" id="lCx-6d-w95"/>
+                                                    <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Gg-j6-m4S"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" tag="38" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQf-eY-Jbl" customClass="UIButtonX" customModule="Nel_es_Harina" customModuleProvider="target">
-                                <rect key="frame" x="16" y="592" width="343" height="39"/>
-                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="MtX-kq-bns"/>
-                                </constraints>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Obligame ...">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="17"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="buttonPlaySound:" destination="hr4-PF-Y3N" eventType="touchUpInside" id="eWN-fg-ZbB"/>
-                                    <action selector="buttonSoundPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FB1-NY-4ey"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="QPB-Fg-b5P" firstAttribute="bottom" secondItem="oQf-eY-Jbl" secondAttribute="bottom" constant="16" id="3Rd-bj-Qpt"/>
-                            <constraint firstItem="AQT-R6-rvJ" firstAttribute="leading" secondItem="QPB-Fg-b5P" secondAttribute="leading" constant="16" id="Abt-HT-wVj"/>
-                            <constraint firstItem="QPB-Fg-b5P" firstAttribute="bottom" secondItem="AQT-R6-rvJ" secondAttribute="bottom" constant="200" id="LL5-y4-0uf"/>
-                            <constraint firstItem="QPB-Fg-b5P" firstAttribute="trailing" secondItem="AQT-R6-rvJ" secondAttribute="trailing" constant="20" id="UeH-v0-SH3"/>
-                            <constraint firstItem="AQT-R6-rvJ" firstAttribute="top" secondItem="QPB-Fg-b5P" secondAttribute="top" constant="20" id="bzR-tx-U5M"/>
-                            <constraint firstItem="oQf-eY-Jbl" firstAttribute="trailing" secondItem="qeZ-lL-T3d" secondAttribute="trailingMargin" id="kHy-Y7-ddi"/>
-                            <constraint firstItem="oQf-eY-Jbl" firstAttribute="leading" secondItem="AQT-R6-rvJ" secondAttribute="leading" id="pyB-9g-WWw"/>
+                            <constraint firstItem="QPB-Fg-b5P" firstAttribute="bottom" secondItem="AQT-R6-rvJ" secondAttribute="bottom" constant="20" id="GSU-2A-1bh"/>
+                            <constraint firstItem="AQT-R6-rvJ" firstAttribute="top" secondItem="QPB-Fg-b5P" secondAttribute="top" constant="20" id="HQA-46-lzk"/>
+                            <constraint firstItem="QPB-Fg-b5P" firstAttribute="trailing" secondItem="AQT-R6-rvJ" secondAttribute="trailing" constant="20" id="W6g-35-6br"/>
+                            <constraint firstItem="AQT-R6-rvJ" firstAttribute="leading" secondItem="QPB-Fg-b5P" secondAttribute="leading" constant="20" id="v10-7N-SXK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QPB-Fg-b5P"/>
                     </view>
