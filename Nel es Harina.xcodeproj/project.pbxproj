@@ -11,6 +11,9 @@
 		CF03B0522358A0AD007D1007 /* inevitable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF03B0512358A0AD007D1007 /* inevitable.m4a */; };
 		CFA6836F2397536800E63DDD /* DesignableX in Resources */ = {isa = PBXBuildFile; fileRef = CFA6836E2397536800E63DDD /* DesignableX */; };
 		CFA683732397754500E63DDD /* obligame.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFA683722397754500E63DDD /* obligame.m4a */; };
+		CFAC80832421128C00AE574C /* todoTermino.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFAC80802421128C00AE574C /* todoTermino.m4a */; };
+		CFAC80842421128C00AE574C /* 3312.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFAC80812421128C00AE574C /* 3312.m4a */; };
+		CFAC80852421128C00AE574C /* otroGato.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFAC80822421128C00AE574C /* otroGato.m4a */; };
 		CFB543412416872100EBE113 /* queBonitosOjos.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFB5433F2416872100EBE113 /* queBonitosOjos.m4a */; };
 		CFB543422416872100EBE113 /* LoQuieroMucho.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFB543402416872100EBE113 /* LoQuieroMucho.m4a */; };
 		CFBA15FD23DFDFA2003B7644 /* laConvencion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CFBA15FC23DFDFA2003B7644 /* laConvencion.m4a */; };
@@ -64,6 +67,9 @@
 		CF03B0512358A0AD007D1007 /* inevitable.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = inevitable.m4a; sourceTree = "<group>"; };
 		CFA6836E2397536800E63DDD /* DesignableX */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DesignableX; sourceTree = "<group>"; };
 		CFA683722397754500E63DDD /* obligame.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = obligame.m4a; sourceTree = "<group>"; };
+		CFAC80802421128C00AE574C /* todoTermino.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = todoTermino.m4a; sourceTree = "<group>"; };
+		CFAC80812421128C00AE574C /* 3312.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3312.m4a; sourceTree = "<group>"; };
+		CFAC80822421128C00AE574C /* otroGato.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = otroGato.m4a; sourceTree = "<group>"; };
 		CFB5433F2416872100EBE113 /* queBonitosOjos.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = queBonitosOjos.m4a; sourceTree = "<group>"; };
 		CFB543402416872100EBE113 /* LoQuieroMucho.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = LoQuieroMucho.m4a; sourceTree = "<group>"; };
 		CFBA15FC23DFDFA2003B7644 /* laConvencion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = laConvencion.m4a; sourceTree = "<group>"; };
@@ -192,6 +198,9 @@
 				CFA683722397754500E63DDD /* obligame.m4a */,
 				CFBC64F123962F8900CEDA26 /* jamonChingon.m4a */,
 				CFBC64EE23962F8900CEDA26 /* siSupo.m4a */,
+				CFAC80812421128C00AE574C /* 3312.m4a */,
+				CFAC80822421128C00AE574C /* otroGato.m4a */,
+				CFAC80802421128C00AE574C /* todoTermino.m4a */,
 				CFBC64ED23962F8900CEDA26 /* todoTeniente.m4a */,
 				CFBC64DA23962DE300CEDA26 /* estoEspartan.m4a */,
 				CFBC64DF23962DE300CEDA26 /* hastaLaVista.m4a */,
@@ -308,6 +317,7 @@
 				CFBC64F423962F8900CEDA26 /* vamosPerrasFull.m4a in Resources */,
 				CFD8ED1F233EA170006503DD /* tranquiloTranquila.m4a in Resources */,
 				CFBC64E523962DE400CEDA26 /* laFuerza.m4a in Resources */,
+				CFAC80832421128C00AE574C /* todoTermino.m4a in Resources */,
 				CF03B0502358A099007D1007 /* cellTerror.m4a in Resources */,
 				CFA683732397754500E63DDD /* obligame.m4a in Resources */,
 				CFBC64E123962DE300CEDA26 /* porqueTanSerio.m4a in Resources */,
@@ -331,8 +341,10 @@
 				CFD8ED1C233EA170006503DD /* tranquilaYoNerviosa.m4a in Resources */,
 				CFB543422416872100EBE113 /* LoQuieroMucho.m4a in Resources */,
 				CFBC64E323962DE400CEDA26 /* todoSeDerrumbo.m4a in Resources */,
+				CFAC80852421128C00AE574C /* otroGato.m4a in Resources */,
 				CFD8ED1A233EA170006503DD /* cumbionLocoFull.m4a in Resources */,
 				CFBC64E223962DE300CEDA26 /* libertad.m4a in Resources */,
+				CFAC80842421128C00AE574C /* 3312.m4a in Resources */,
 				CFD8ED23233EA170006503DD /* hayPapaya.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
