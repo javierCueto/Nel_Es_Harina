@@ -8,11 +8,11 @@
 
 import SwiftUI
 
-struct Sound {
+struct Sound:Hashable, Identifiable {
     var id: UUID
     var name: String
     var nameAudio: String
     var image: String?
-    
+    var classification: String
     
 }

@@ -59,6 +59,9 @@
 		CF5275A3246C7B16009EBD3A /* porqueTanSerio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF527577246C7B16009EBD3A /* porqueTanSerio.m4a */; };
 		CF5275A4246C7B16009EBD3A /* LoQuieroMucho.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF527578246C7B16009EBD3A /* LoQuieroMucho.m4a */; };
 		CF5275A8246C7C92009EBD3A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5275A7246C7C92009EBD3A /* Sound.swift */; };
+		CF5275AA246CAD5C009EBD3A /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5275A9246CAD5C009EBD3A /* SoundView.swift */; };
+		CF5275AC246CB48D009EBD3A /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5275AB246CB48D009EBD3A /* GroupView.swift */; };
+		CF5275AE246CB8EB009EBD3A /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5275AD246CB8EB009EBD3A /* SoundsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,6 +119,9 @@
 		CF527577246C7B16009EBD3A /* porqueTanSerio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = porqueTanSerio.m4a; path = "Nel es Harina/Sounds/porqueTanSerio.m4a"; sourceTree = SOURCE_ROOT; };
 		CF527578246C7B16009EBD3A /* LoQuieroMucho.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = LoQuieroMucho.m4a; path = "Nel es Harina/Sounds/LoQuieroMucho.m4a"; sourceTree = SOURCE_ROOT; };
 		CF5275A7246C7C92009EBD3A /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		CF5275A9246CAD5C009EBD3A /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		CF5275AB246CB48D009EBD3A /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
+		CF5275AD246CB8EB009EBD3A /* SoundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +239,9 @@
 			isa = PBXGroup;
 			children = (
 				CF527534246C7925009EBD3A /* ContentView.swift */,
+				CF5275A9246CAD5C009EBD3A /* SoundView.swift */,
+				CF5275AB246CB48D009EBD3A /* GroupView.swift */,
+				CF5275AD246CB8EB009EBD3A /* SoundsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,9 +371,12 @@
 			files = (
 				CF5275A8246C7C92009EBD3A /* Sound.swift in Sources */,
 				CF527531246C7925009EBD3A /* AppDelegate.swift in Sources */,
+				CF5275AE246CB8EB009EBD3A /* SoundsView.swift in Sources */,
+				CF5275AA246CAD5C009EBD3A /* SoundView.swift in Sources */,
 				CF527533246C7925009EBD3A /* SceneDelegate.swift in Sources */,
 				CF527535246C7925009EBD3A /* ContentView.swift in Sources */,
 				CF52754A246C7AAC009EBD3A /* SoundManager.swift in Sources */,
+				CF5275AC246CB48D009EBD3A /* GroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.javiercueto.Nel-es-Harina";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -532,7 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.javiercueto.Nel-es-Harina";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
