@@ -14,5 +14,6 @@ struct Sound:Hashable, Identifiable {
     var nameAudio: String
     var image: String?
     var classification: String
+    var favorite: Bool
     
 }

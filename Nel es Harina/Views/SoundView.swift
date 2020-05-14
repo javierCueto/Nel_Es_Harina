@@ -13,9 +13,9 @@ struct SoundView: View {
     var body: some View {
         
         Button(action: {
-            let playSound = SoundPlay()
+     
             
-            playSound.playSound(toPlay: self.sound.nameAudio)
+            playSound(toPlay: self.sound.nameAudio)
         }) {
             VStack(){
                 Text(sound.name)
@@ -35,7 +35,7 @@ struct SoundView: View {
         .padding(.leading,5)
         .padding(.trailing,5)
             .frame(maxWidth: .infinity, minHeight: 60 ,maxHeight: 60)
-        .background(LinearGradient(gradient: Gradient(colors: [Color("Color01"),Color("Color02")]), startPoint: .leading, endPoint: .trailing))
+        .background(LinearGradient(gradient: Gradient(colors: sound.favorite ? [Color("Color01"),Color("Color03")] : [Color("Color01"),Color("Color02")]  ), startPoint: .leading, endPoint: .trailing))
         //.clipShape(Capsule())
         .cornerRadius(10)
         .shadow(color: Color("ColorShadow"), radius: 3, x: 0, y: 1)

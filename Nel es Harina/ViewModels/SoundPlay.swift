@@ -6,23 +6,37 @@
 //  Copyright © 2020 Pozolx. All rights reserved.
 //
 
+import SwiftUI
 
 import AVFoundation
 
-class SoundPlay{
-    var audioPlayer: AVAudioPlayer!
-        
-    func playSound(toPlay: String ){
-     
-     let soundPlay = toPlay
-     print(soundPlay)
-         let soundURL = Bundle.main.url(forResource:soundPlay, withExtension: "m4a")
-         do{
-             try AVAudioSession.sharedInstance().setCategory(.playback)
-             try audioPlayer = AVAudioPlayer(contentsOf:soundURL!)
-         }catch{
-             print(error)
-         }
-         audioPlayer.play()
-     }
+var audioPlayer: AVAudioPlayer!
+
+func playSound(toPlay: String ){
+    
+    let soundPlay = toPlay
+    
+    let soundURL = Bundle.main.url(forResource:soundPlay, withExtension: "m4a")
+    do{
+        try AVAudioSession.sharedInstance().setCategory(.playback)
+        try audioPlayer = AVAudioPlayer(contentsOf:soundURL!)
+    }catch{
+        print("________________________________________________________________")
+        print(error)
+    }
+    
+    audioPlayer.play()
+    
+    
 }
+
+
+func stopSound(){
+    audioPlayer.stop()
+}
+
+
+
+
+
+

@@ -17,56 +17,73 @@ struct SoundsView: View {
         
         
         GeometryReader{ geometry in
-            HStack{
-                
-                List(){
+            ScrollView(showsIndicators: false){
+                HStack{
                     
-                    ForEach(self.sounds.count/2..<self.sounds.count, id: \.self){ sound in
-                        SoundView(sound: self.sounds[sound])
-                            .padding(.top,10)
-                            //.padding(.bottom,10)
-                            .padding(.leading,14)
-                        
-                        
-                        
+                    ScrollView(showsIndicators: false){
+                        VStack(){
+                            
+                            ForEach(self.sounds.count/2..<self.sounds.count, id: \.self){ sound in
+                                SoundView(sound: self.sounds[sound])
+                                    .padding(.top,10)
+                                    //.padding(.bottom,10)
+                                    .padding(.leading,14)
+                                //.padding(.trailing,14)
+                                
+                                
+                                
+                                
+                            }
+                            
+                        } .frame( width: geometry.size.width/2)
                         
                     }
-                    .listRowInsets(EdgeInsets())
-                } .frame( width: geometry.size.width/2)
-                
-                
-                
-                Spacer()
-                List{
-                    
-                    ForEach(0..<self.sounds.count/2, id: \.self){ sound in
-                        
-                        
-                        SoundView(sound: self.sounds[sound])
-                            .padding(.top,10)
-                           // .padding(.bottom,10)
-                            .padding(.trailing,14)
-                        
-                        
-                        
-                        
-                        
-                        
-                    } .listRowInsets(EdgeInsets())
                     
                     
                     
-                }.frame( width: geometry.size.width/2)
+                    ScrollView(showsIndicators: false){
+                        VStack{
+                            
+                            ForEach(0..<self.sounds.count/2, id: \.self){ sound in
+                                
+                                
+                                SoundView(sound: self.sounds[sound])
+                                    .padding(.top,10)
+                                    //.padding(.leading,14)
+                                    .padding(.trailing,14)
+                                
+                                
+                                
+                                
+                                
+                                
+                            } .listRowInsets(EdgeInsets())
+                            
+                            
+                            
+                        }.frame( width: geometry.size.width/2)
+                        
+                    }
+                }                
                 
-                
-            }                
-                
-                
-                
+            }
                 
                 
                 
             .navigationBarTitle(Text(self.grupo), displayMode: .inline)
+            .navigationBarItems(trailing: Button(action: {
+                stopSound()
+            }){
+                HStack{
+                    //Text("Detener")
+                    //  .foregroundColor(.black)
+                    Image(systemName: "pause.circle")
+                        .font(.title)
+                }
+                
+            })
+            
+            
             
             
         }
