@@ -23,7 +23,8 @@ struct GroupView: View {
             .frame(maxWidth: .infinity)
             .background(LinearGradient(gradient: Gradient(colors: [Color("Color01"),Color("Color02")]), startPoint: .leading, endPoint: .trailing))
             .clipShape(Capsule())
-            .shadow(color: Color("ColorShadow"), radius: 6, x: 0, y: 3)
+            .shadow(color: Color("ColorShadow"), radius: 3, x: 0, y: 1)
+        
         
     }
 }

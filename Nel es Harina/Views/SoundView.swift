@@ -31,14 +31,15 @@ struct SoundView: View {
         .frame(maxWidth: .infinity)
         .background(LinearGradient(gradient: Gradient(colors: [Color("Color01"),Color("Color02")]), startPoint: .leading, endPoint: .trailing))
         .clipShape(Capsule())
-        .shadow(color: Color("ColorShadow"), radius: 6, x: 0, y: 3)
+        .shadow(color: Color("ColorShadow"), radius: 3, x: 0, y: 1)
+        .buttonStyle(BorderlessButtonStyle())
     }
 }
 
 struct SoundView_Previews: PreviewProvider {
     static var previews: some View {
         SoundView(sound: SoundManager().sounds[0])
-            .previewLayout(.sizeThatFits)
+            //.previewLayout(.sizeThatFits)
         
     }
 }

@@ -13,15 +13,17 @@ struct SoundsView: View {
     var grupo : String
     var body: some View {
         VStack{
-
+        
+                
                 List(){
                     ForEach(self.sounds[grupo]!, id: \.self){ sound in
                         SoundView(sound: sound)
                         
                     }
-            
                     
-            }
+                }
+               
+             .navigationBarTitle(Text(grupo), displayMode: .inline)
             
             
         }
