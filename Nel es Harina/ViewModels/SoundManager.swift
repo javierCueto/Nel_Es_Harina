@@ -7,7 +7,7 @@
 //
 
 import SwiftUI
-import AVFoundation
+
 
 
 class SoundManager: ObservableObject {
@@ -54,7 +54,7 @@ class SoundManager: ObservableObject {
             Sound(id: UUID(), name: "Veo gente muerta", nameAudio: "veoGenteDead", image: nil, classification: "Peliculas y caricaturas"),
             Sound(id: UUID(), name: "Jamon chingon", nameAudio: "jamonChingon", image: nil, classification: "Nel es Harina"),
             Sound(id: UUID(), name: "Vamonos perras", nameAudio: "vamosPerrasFull", image: nil, classification: "Nel es Harina"),
-             Sound(id: UUID(), name: "Vamonos perras (Short)", nameAudio: "vamosP", image: nil, classification: "Nel es Harina"),
+             Sound(id: UUID(), name: "Vamonos perras (Short)", nameAudio: "vamonosP", image: nil, classification: "Nel es Harina"),
             Sound(id: UUID(), name: "Si supo", nameAudio: "siSupo", image: nil, classification: "Nel es Harina"),
             Sound(id: UUID(), name: "Yo soy tu padre", nameAudio: "yoSoyTuPadre", image: nil, classification: "Peliculas y caricaturas"),
             Sound(id: UUID(), name: "Todo teniente", nameAudio: "todoTeniente", image: nil, classification: "Nel es Harina"),
@@ -69,26 +69,10 @@ class SoundManager: ObservableObject {
             
         ]
  
-        soundDictionary =  Dictionary(grouping: sounds, by: { $0.classification } )
-        
+          soundDictionary =  Dictionary(grouping: sounds, by: { $0.classification } )
 
     }
     
     
-    var audioPlayer: AVAudioPlayer!
-    let soundArray=["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
-    
-   func playSound(toPlay: Int? ){
-    
-    let soundPlay = soundArray[(toPlay ?? 1)-1]
-    print(soundPlay)
-        let soundURL = Bundle.main.url(forResource:soundPlay, withExtension: "m4a")
-        do{
-            try AVAudioSession.sharedInstance().setCategory(.playback)
-            try audioPlayer = AVAudioPlayer(contentsOf:soundURL!)
-        }catch{
-            print(error)
-        }
-        audioPlayer.play()
-    }
+ 
 }

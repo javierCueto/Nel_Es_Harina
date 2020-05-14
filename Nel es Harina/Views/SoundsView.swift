@@ -9,21 +9,64 @@
 import SwiftUI
 
 struct SoundsView: View {
-    var sounds = SoundManager().soundDictionary
+    var sounds :  [Sound]//SoundManager().soundDictionary
     var grupo : String
+    @State private var colum = 2
     var body: some View {
-        VStack{
+        //VStack{
         
+        
+        GeometryReader{ geometry in
+            HStack{
                 
                 List(){
-                    ForEach(self.sounds[grupo]!, id: \.self){ sound in
-                        SoundView(sound: sound)
+                    
+                    ForEach(self.sounds.count/2..<self.sounds.count, id: \.self){ sound in
+                        SoundView(sound: self.sounds[sound])
+                            .padding(.top,10)
+                            //.padding(.bottom,10)
+                            .padding(.leading,14)
+                        
+                        
+                        
                         
                     }
+                    .listRowInsets(EdgeInsets())
+                } .frame( width: geometry.size.width/2)
+                
+                
+                
+                Spacer()
+                List{
                     
-                }
-               
-             .navigationBarTitle(Text(grupo), displayMode: .inline)
+                    ForEach(0..<self.sounds.count/2, id: \.self){ sound in
+                        
+                        
+                        SoundView(sound: self.sounds[sound])
+                            .padding(.top,10)
+                           // .padding(.bottom,10)
+                            .padding(.trailing,14)
+                        
+                        
+                        
+                        
+                        
+                        
+                    } .listRowInsets(EdgeInsets())
+                    
+                    
+                    
+                }.frame( width: geometry.size.width/2)
+                
+                
+            }                
+                
+                
+                
+                
+                
+                
+            .navigationBarTitle(Text(self.grupo), displayMode: .inline)
             
             
         }
@@ -31,7 +74,8 @@ struct SoundsView: View {
 }
 
 struct SoundsView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        SoundsView(sounds: SoundManager().soundDictionary, grupo: "Nel es Harina")
+        SoundsView(sounds: SoundManager().soundDictionary["Nel es Harina"]!, grupo: "Nel es Harina")
     }
 }

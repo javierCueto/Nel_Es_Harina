@@ -11,26 +11,33 @@ import SwiftUI
 struct SoundView: View {
     var sound: Sound
     var body: some View {
+        
         Button(action: {
-            print("here")
+            let playSound = SoundPlay()
+            
+            playSound.playSound(toPlay: self.sound.nameAudio)
         }) {
-            HStack(){
+            VStack(){
                 Text(sound.name)
-                    .fontWeight(.heavy)
+                    .font(.body)
                     .foregroundColor(.white)
+                    //.fixedSize(horizontal: false, vertical: true)
+                    .lineLimit(nil)
                   
-                Spacer()
-                Image(systemName: "play.circle")
-                    .font(Font.title.weight(.medium))
-                .foregroundColor(.white)
+               // Spacer()
+                //Image(systemName: "play.circle")
+                  //  .font(Font.title.weight(.medium))
+                //.foregroundColor(.white)
            
-            }.padding()
+            }
             
         }
-        //.padding()
-        .frame(maxWidth: .infinity)
+        .padding(.leading,5)
+        .padding(.trailing,5)
+            .frame(maxWidth: .infinity, minHeight: 60 ,maxHeight: 60)
         .background(LinearGradient(gradient: Gradient(colors: [Color("Color01"),Color("Color02")]), startPoint: .leading, endPoint: .trailing))
-        .clipShape(Capsule())
+        //.clipShape(Capsule())
+        .cornerRadius(10)
         .shadow(color: Color("ColorShadow"), radius: 3, x: 0, y: 1)
         .buttonStyle(BorderlessButtonStyle())
     }
@@ -38,8 +45,10 @@ struct SoundView: View {
 
 struct SoundView_Previews: PreviewProvider {
     static var previews: some View {
-        SoundView(sound: SoundManager().sounds[0])
-            //.previewLayout(.sizeThatFits)
+        SoundView(sound: SoundManager().sounds[9])
+            .previewLayout(.fixed(width: 200, height: 300))
+        //.previewLayout(.sizeThatFits)
+        
         
     }
 }
